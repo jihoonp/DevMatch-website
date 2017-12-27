@@ -29,6 +29,16 @@ h1, h2, h3 {
   font-weight: 800;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #00c6ff;
+  }
+}
+
 .navbar, .home-callout {
     background: #74ebd5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
